@@ -1,0 +1,16 @@
+# Секреты — никогда не публиковать
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+tokens.*
+*.credentials
+
+# Рабочие файлы прогонов (не часть пакета)
+_raw/
+_test_run_*/
+
+# Системное
+.DS_Store
+Thumbs.db
